@@ -62,6 +62,7 @@ public class Main extends Sprite {
         var g:Graphics;
         dragCard = new Sprite();
         addChild(dragCard);
+		g = dragCard.graphics;
         g.beginFill(0x000000);
         g.drawCircle(0,0,30);
         dragCard.x = stage.stageWidth * 0.5;
